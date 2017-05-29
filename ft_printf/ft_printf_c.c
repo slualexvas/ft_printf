@@ -6,7 +6,7 @@
 /*   By: oslutsky <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/21 12:58:30 by oslutsky          #+#    #+#             */
-/*   Updated: 2017/05/29 16:32:37 by oslutsky         ###   ########.fr       */
+/*   Updated: 2017/05/29 16:51:28 by oslutsky         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,6 @@ void		ft_printf_c(t_pav *pav)
 	char	s[4];
 	int		s_len;
 
-	ft_printf_uppercase_c(pav);
 	if (pav->pcv.conv_char != 'c')
 		return ;
 	c = va_arg(pav->args, int);
